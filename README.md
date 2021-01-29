@@ -20,3 +20,7 @@
         |o|                                 |o|
         |o|              01/28              |o|
         |o|,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,|o|
+
+To rasterize an svg in low resolution pixelized form.
+* Add `shape-rendering="crispEdges"` to the root `<svg>` tag
+* Run `rsvg image.svg -o image.png --format=png`
