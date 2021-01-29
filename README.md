@@ -21,6 +21,6 @@
         |o|              01/28              |o|
         |o|,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,|o|
 
-To rasterize an svg in low resolution pixelized form.
+To rasterize discatte (or any SVG) in low resolution pixelized form.
 * Add `shape-rendering="crispEdges"` to the root `<svg>` tag
-* Run `rsvg image.svg -o image.png --format=png`
+* Run `rsvg-convert -h 118 -f png -o cat.png catdisk-borderless.svg `
